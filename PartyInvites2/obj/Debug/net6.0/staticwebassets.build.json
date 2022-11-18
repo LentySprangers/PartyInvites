@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/Ih6QftRna7czPjldJthIXaN1W4IVYxfgNb0MZXLnNE=",
+  "Hash": "aPywjoM2tauaooFYhsAcGwVAHQQzcgO7JtPjwH3d140=",
   "Source": "PartyInvites2",
   "BasePath": "_content/PartyInvites2",
   "Mode": "Default",
@@ -66,6 +66,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "D:\\Projects\\YEAR2\\2.1\\SSWF\\PartyInvites2\\PartyInvites2\\wwwroot\\css\\styles.css",
+      "SourceId": "PartyInvites2",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\YEAR2\\2.1\\SSWF\\PartyInvites2\\PartyInvites2\\wwwroot\\",
+      "BasePath": "_content/PartyInvites2",
+      "RelativePath": "css/styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\styles.css"
     },
     {
       "Identity": "D:\\Projects\\YEAR2\\2.1\\SSWF\\PartyInvites2\\PartyInvites2\\wwwroot\\favicon.ico",
