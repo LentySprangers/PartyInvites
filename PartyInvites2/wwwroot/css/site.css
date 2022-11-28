@@ -1,5 +1,9 @@
+
 html {
-  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  position: relative;
+  min-height: 100%;
 }
 
 @media (min-width: 768px) {
@@ -8,11 +12,124 @@ html {
   }
 }
 
-html {
-  position: relative;
-  min-height: 100%;
+.navbar {
+  background-color: #245225;
+  color: #D3F9C9;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
+
+.sticky {
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+.navbar-brand {
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 4rem;
+  font-size: 1.25rem;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.navbar-light .navbar-brand{
+  color: #D3F9C9;
+  font-size: 28px;
+  
+}.navbar-light .navbar-brand:hover{
+  color: #D3F9C9;
+   text-decoration-line: underline;
+}
+
+.navbar-light .navbar-nav .nav-link{
+  color: #D3F9C9;
+  font-size: 20px;
+  
+  
+}.navbar-light .navbar-nav .nav-link:hover{
+   color: #D3F9C9;
+  text-decoration-line: underline;
+}
+
 
 body {
   margin-bottom: 60px;
+  background-color: #E9DFC3;
+  background-image: url("/../img/cardboard.png");
+  font-family: "Poppins", sans-serif;
 }
+
+.page-content{
+  background-color: rgba(251, 236, 210, 0.73);
+  padding-left: 0;
+  padding-right: 0;
+  height: 90vh;
+  
+}
+
+.page-content main{
+  height: 93%;
+}
+.footer{
+  background-color: #245225;
+  color: #D3F9C9
+}
+
+.btn{
+  background-color: #D3F9C9;
+  border-radius: 9pt;
+  color: #245225;
+  border-color: #245225;
+  font-weight: bold;
+  border-width: 2pt;
+}
+.btn:hover{
+  background-color: #245225;
+  border-color: #245225;
+  border-radius: 9pt;
+  color: #D3F9C9;
+  font-weight: bold;
+  
+}
+.btn:active{
+  background-color: #245225;
+  border-color: #245225;
+  border-radius: 9pt;
+  color: #D3F9C9;
+  font-weight: bold;
+   box-shadow: 0 0 0 0.25rem rgba(36, 82, 37, 0.5);
+}
+
+
+.btn-check:checked + .btn-primary:focus, .btn-check:active + .btn-primary:focus, .btn-primary:active:focus, .btn-primary.active:focus, .show > .btn-primary.dropdown-toggle:focus{
+  background-color: #245225;
+  border-color: #245225;
+  border-radius: 9pt;
+  color: #D3F9C9;
+  font-weight: bold;
+   box-shadow: 0 0 0 0.25rem rgba(36, 82, 37, 0.5);
+}
+.field-validation-error {
+  color: #ff0000;
+}
+
+.field-validation-valid {
+  display: none;
+}
+
+.input-validation-error {
+  border: 1px solid #f00;
+  background-color: #fee;
+}
+
+.validation-summary-errors {
+  font-weight: bold;
+  color: #f00;
+}
+
+.validation-summary-valid {
+  display: none;
+}
+
+

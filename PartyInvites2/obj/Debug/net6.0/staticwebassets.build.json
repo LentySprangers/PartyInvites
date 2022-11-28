@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "aPywjoM2tauaooFYhsAcGwVAHQQzcgO7JtPjwH3d140=",
+  "Hash": "RTBKzouuvdeQKLIZmTL5Q/0juOXtyvJ1NwhQ52Db+GU=",
   "Source": "PartyInvites2",
   "BasePath": "_content/PartyInvites2",
   "Mode": "Default",
@@ -68,23 +68,6 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\Projects\\YEAR2\\2.1\\SSWF\\PartyInvites2\\PartyInvites2\\wwwroot\\css\\styles.css",
-      "SourceId": "PartyInvites2",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\YEAR2\\2.1\\SSWF\\PartyInvites2\\PartyInvites2\\wwwroot\\",
-      "BasePath": "_content/PartyInvites2",
-      "RelativePath": "css/styles.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\styles.css"
-    },
-    {
       "Identity": "D:\\Projects\\YEAR2\\2.1\\SSWF\\PartyInvites2\\PartyInvites2\\wwwroot\\favicon.ico",
       "SourceId": "PartyInvites2",
       "SourceType": "Discovered",
@@ -100,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\Projects\\YEAR2\\2.1\\SSWF\\PartyInvites2\\PartyInvites2\\wwwroot\\img\\cardboard.png",
+      "SourceId": "PartyInvites2",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\YEAR2\\2.1\\SSWF\\PartyInvites2\\PartyInvites2\\wwwroot\\",
+      "BasePath": "_content/PartyInvites2",
+      "RelativePath": "img/cardboard.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\cardboard.png"
     },
     {
       "Identity": "D:\\Projects\\YEAR2\\2.1\\SSWF\\PartyInvites2\\PartyInvites2\\wwwroot\\js\\site.js",
