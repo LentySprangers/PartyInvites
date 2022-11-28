@@ -1,135 +1,194 @@
 
 html {
-  font-family: "Poppins", sans-serif;
-  font-size: 16px;
-  position: relative;
-  min-height: 100%;
-}
-
-@media (min-width: 768px) {
-  html {
+    font-family: "Poppins", sans-serif;
     font-size: 16px;
-  }
+    position: relative;
+    min-height: 100%;
 }
-
-.navbar {
-  background-color: #245225;
-  color: #D3F9C9;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-}
-
-.sticky {
-  position: sticky;
-  top: 0;
-  width: 100%;
-}
-
-.navbar-brand {
-  padding-top: 0.3125rem;
-  padding-bottom: 0.3125rem;
-  margin-right: 4rem;
-  font-size: 1.25rem;
-  text-decoration: none;
-  white-space: nowrap;
-}
-.navbar-light .navbar-brand{
-  color: #D3F9C9;
-  font-size: 28px;
-  
-}.navbar-light .navbar-brand:hover{
-  color: #D3F9C9;
-   text-decoration-line: underline;
-}
-
-.navbar-light .navbar-nav .nav-link{
-  color: #D3F9C9;
-  font-size: 20px;
-  
-  
-}.navbar-light .navbar-nav .nav-link:hover{
-   color: #D3F9C9;
-  text-decoration-line: underline;
-}
-
 
 body {
-  margin-bottom: 60px;
-  background-color: #E9DFC3;
-  background-image: url("/../img/cardboard.png");
-  font-family: "Poppins", sans-serif;
+    margin-bottom: 60px;
+    background-color: #E9DFC3;
+    background-image: url("/../img/cardboard.png");
+    font-family: "Poppins", sans-serif;
 }
 
-.page-content{
-  background-color: rgba(251, 236, 210, 0.73);
-  padding-left: 0;
-  padding-right: 0;
-  height: 90vh;
-  
+.page-content {
+    background-color: rgba(251, 236, 210, 0.73);
+    padding-left: 0;
+    padding-right: 0;
+    height: 90vh;
+
 }
 
-.page-content main{
-  height: 93%;
-}
-.footer{
-  background-color: #245225;
-  color: #D3F9C9
+.page-content main {
+    height: 93%;
 }
 
-.btn{
-  background-color: #D3F9C9;
-  border-radius: 9pt;
-  color: #245225;
-  border-color: #245225;
-  font-weight: bold;
-  border-width: 2pt;
+.footer {
+    background-color: #245225;
+    color: #D3F9C9;
+    text-align: center;
+    height: 100px;
 }
-.btn:hover{
-  background-color: #245225;
-  border-color: #245225;
-  border-radius: 9pt;
-  color: #D3F9C9;
-  font-weight: bold;
-  
+
+.btn {
+    background-color: #D3F9C9;
+    border-radius: 9pt;
+    color: #245225;
+    border-color: #245225;
+    font-weight: bold;
+    font-size: 2em;
+    border-width: 2pt;
 }
-.btn:active{
-  background-color: #245225;
-  border-color: #245225;
-  border-radius: 9pt;
-  color: #D3F9C9;
-  font-weight: bold;
-   box-shadow: 0 0 0 0.25rem rgba(36, 82, 37, 0.5);
+
+.btn:hover {
+    background-color: #245225;
+    border-color: #245225;
+    border-radius: 9pt;
+    color: #D3F9C9;
+    font-weight: bold;
+
+}
+
+.btn:active {
+    background-color: #245225;
+    border-color: #245225;
+    border-radius: 9pt;
+    color: #D3F9C9;
+    font-weight: bold;
+    box-shadow: 0 0 0 0.25rem rgba(36, 82, 37, 0.5);
 }
 
 
-.btn-check:checked + .btn-primary:focus, .btn-check:active + .btn-primary:focus, .btn-primary:active:focus, .btn-primary.active:focus, .show > .btn-primary.dropdown-toggle:focus{
-  background-color: #245225;
-  border-color: #245225;
-  border-radius: 9pt;
-  color: #D3F9C9;
-  font-weight: bold;
-   box-shadow: 0 0 0 0.25rem rgba(36, 82, 37, 0.5);
+.btn-check:checked + .btn-primary:focus, .btn-check:active + .btn-primary:focus, .btn-primary:active:focus, .btn-primary.active:focus, .show > .btn-primary.dropdown-toggle:focus {
+    background-color: #245225;
+    border-color: #245225;
+    border-radius: 9pt;
+    color: #D3F9C9;
+    font-weight: bold;
+    box-shadow: 0 0 0 0.25rem rgba(36, 82, 37, 0.5);
 }
+
 .field-validation-error {
-  color: #ff0000;
+    color: #ff0000;
 }
 
 .field-validation-valid {
-  display: none;
+    display: none;
 }
 
 .input-validation-error {
-  border: 1px solid #f00;
-  background-color: #fee;
+    border: 1px solid #f00;
+    background-color: #fee;
 }
 
 .validation-summary-errors {
-  font-weight: bold;
-  color: #f00;
+    font-weight: bold;
+    color: #f00;
 }
 
 .validation-summary-valid {
-  display: none;
+    display: none;
 }
 
 
+#main-nav {
+    background-color: #245225;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+    height: 45px;
+}
+
+nav a {
+    color: #D3F9C9;
+    text-decoration: none;
+    margin: 0px 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #D3F9C9;
+}
+
+#main-nav.sticky {
+    position: fixed;
+    top: 0;
+}
+
+.navbarOffsetMargin {
+    padding-top: 45px;
+}
+
+section {
+    min-height: 100vh;
+}
+
+section#header {
+    background-image: url("/../img/cardboard.png");
+    color: #245225;
+    min-height: 0px;
+}
+
+section#zero-foodwaste {
+    background-color: #E9DFC3;
+    color: #245225;
+    text-align: center;
+}
+
+section#save-money {
+    background: #D3F9C9;
+    color: #245225;
+}
+
+section#movement {
+    background-color: #E9DFC3;
+    color: #245225;
+}
+
+article {
+    width: 90%;
+    max-width: 600px;
+    padding: 20px;
+    margin: 0px auto;
+}
+
+h2 {
+    text-align: center;
+    padding: 40px 0px 40px 0px;
+    font-size: 4em;
+    color: #245225;
+    font-weight: bold;
+}
+h3 {
+    text-align: center;
+    padding: 40px 0px 0px 0px;
+    font-size: 3em;
+    color: #245225
+}
+
+p {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    html {
+        scroll-behavior: smooth;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 11px;
+    }
+}

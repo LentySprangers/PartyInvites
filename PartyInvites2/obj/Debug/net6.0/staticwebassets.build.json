@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "RTBKzouuvdeQKLIZmTL5Q/0juOXtyvJ1NwhQ52Db+GU=",
+  "Hash": "oyt0VNjj+vl43F6r1oqCW2t2oiKo+CCgdlRyDLdnLQM=",
   "Source": "PartyInvites2",
   "BasePath": "_content/PartyInvites2",
   "Mode": "Default",
@@ -100,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\cardboard.png"
+    },
+    {
+      "Identity": "D:\\Projects\\YEAR2\\2.1\\SSWF\\PartyInvites2\\PartyInvites2\\wwwroot\\img\\DB.png",
+      "SourceId": "PartyInvites2",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\YEAR2\\2.1\\SSWF\\PartyInvites2\\PartyInvites2\\wwwroot\\",
+      "BasePath": "_content/PartyInvites2",
+      "RelativePath": "img/DB.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\DB.png"
     },
     {
       "Identity": "D:\\Projects\\YEAR2\\2.1\\SSWF\\PartyInvites2\\PartyInvites2\\wwwroot\\js\\site.js",
