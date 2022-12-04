@@ -7,7 +7,6 @@ html {
 }
 
 body {
-    margin-bottom: 60px;
     background-color: #E9DFC3;
     background-image: url("/../img/cardboard.png");
     font-family: "Poppins", sans-serif;
@@ -101,6 +100,7 @@ body {
     position: relative;
     box-sizing: border-box;
     height: 45px;
+    box-shadow: 0 3px 8px 0 rgb(0 0 0 / 70%);
 }
 
 nav a {
@@ -127,24 +127,24 @@ section {
     min-height: 100vh;
 }
 
-section#header {
+#header {
     background-image: url("/../img/cardboard.png");
     color: #245225;
     min-height: 0px;
 }
 
-section#zero-foodwaste {
+#zero-foodwaste {
     background-color: #E9DFC3;
     color: #245225;
     text-align: center;
 }
 
-section#save-money {
+#save-money {
     background: #D3F9C9;
     color: #245225;
 }
 
-section#movement {
+#movement {
     background-color: #E9DFC3;
     color: #245225;
 }
@@ -191,4 +191,13 @@ p {
     body {
         font-size: 11px;
     }
+}
+
+
+#header > article{
+    padding: 20px;
+    margin: 0px auto;
+    box-shadow: inset 0px -5px 8px -3px rgb(0 0 0 / 70%);
+    max-width: none;
+    width: 100%;
 }
